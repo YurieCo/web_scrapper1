@@ -23,7 +23,7 @@
 # called "data.sqlite" in the current working directory which has at least a table
 # called "data".
 from requests_html import HTMLSession
-
+import scraperwiki
 base_url = ' https://www.zomato.com/melbourne/dinner-in-ashburton'
 
 headers = {
